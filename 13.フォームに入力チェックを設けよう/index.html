@@ -9,7 +9,11 @@
     id="username" 
     name="username" 
     placeholder="ユーザー名を入力してください"
-    
+    pattern="^[0-9A-Za-z]+$"
+    minlength="4" 
+    maxlength="10"
+    required
+
   >
 
   <input type="submit" value="送信">
